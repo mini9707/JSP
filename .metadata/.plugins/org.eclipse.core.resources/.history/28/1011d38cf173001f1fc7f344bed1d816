@@ -1,0 +1,18 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%
+	Cookie cookie1 = new Cookie("name", "sbm");
+	Cookie cookie2 = new Cookie("age", "20");
+	System.out.println("name:"+cookie1.getValue());
+	System.out.println("age:"+cookie2.getValue());
+%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>쿠키생성</title>
+</head>
+<body>
+쿠키가 생성되었습니다.
+</body>
+</html>
